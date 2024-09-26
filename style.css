@@ -1,0 +1,212 @@
+
+.navbar{
+    /* border: 2px solid black; */
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.a1{
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.a1:hover{
+    color: rgb(71, 144, 204);
+}
+.left{
+    display: flex;
+    align-items: center;
+    margin-right: 400px;  
+}
+
+.right{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* gap: 50px; */
+}
+
+.img1{
+    height: 35px;
+     margin-right: 35px;
+}
+
+/* NavBar ends */
+
+/* Body Satrts */
+
+.lorem{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 60px;
+}
+
+h3{
+    padding-left: 260px;
+    padding-right: 260px;
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 45px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    color: white;
+    font-size: 15px;
+    background-color: rgb(71, 144, 204);
+}
+.button:hover{
+    border-radius: 25px;
+    transition: all ease-in-out 0.3s;
+    background-color: rgb(49, 141, 217);
+}
+
+.a{
+    margin-top: 60px;
+    margin-left: 210px;
+    font-size: 20px;
+}
+
+.download{
+    margin-top: 50px;
+    margin-left: 210px;
+}
+
+.image{
+    height: 30px;
+}
+
+/* Container starts */
+
+.container{
+    margin-top: 30px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 60px;
+    margin-right: 60px;
+    gap: 60px 40px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.items{
+    /* border: 2px solid red; */
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    background-color:rgba(250, 235, 215, 0.252);
+}
+
+.items:hover{
+    border-radius: 20px;
+}
+
+.items h2{
+    text-align: center;
+}
+
+.cbutton{
+    margin-top: 30px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(86, 222, 86);
+    border: none;
+
+}
+/* Footer  */
+
+.footer{
+    background-color: #252222;
+    height: 750px;
+}
+
+.footer2{
+    /* border: 2px solid black; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer h2{
+    margin-top: 180px;
+    margin-left: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+.Fbox{
+    background-color: white;
+    border: 2px solid black;
+    height: 300px;
+    width: 400px;
+    margin-top: 70px;
+    margin-left: 120px;
+    border-radius: 20px;
+}
+
+.form{
+    color: rgb(49, 141, 217);;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.input{
+    font-size: 25px;
+    padding: 5px;
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 10px;
+    /* border-color: rgb(71, 144, 204); */
+}
+.c2box{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-top: 40px;
+    color: rgb(71, 144, 204);
+}
+
+.Fbutton{
+    margin-top: 30px;
+    padding: 15px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: rgb(71, 144, 204);
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.Fbutton:hover{
+    background-color: rgb(49, 141, 217);
+    border-radius: 15px;
+    transition: all ease-in-out 0.2s;
+}
+
+.question1, .question2{
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 80px;
+    font-size: 25px;
+    color: white;
+}
