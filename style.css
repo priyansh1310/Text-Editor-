@@ -1,6 +1,8 @@
 
 .navbar{
     /* border: 2px solid black; */
+    border-radius: 20px;
+    /* box-shadow: 0 1px 100px rgb(95, 100, 197); */
     padding: 0px;
     display: flex;
     justify-content: center;
@@ -63,17 +65,20 @@ h3{
     margin-top: 45px;
     padding: 20px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 20px;
     /* border: 2px solid black; */
     color: white;
     font-size: 15px;
     background-color: rgb(71, 144, 204);
 }
 .button:hover{
-    border-radius: 25px;
+    border-radius: 15px;
     transition: all ease-in-out 0.3s;
     background-color: rgb(49, 141, 217);
+    box-shadow:  1px 2px 2px rgb(26, 34, 26);
+    cursor: pointer;
 }
+
 
 .a{
     margin-top: 60px;
@@ -109,13 +114,15 @@ h3{
     /* border: 2px solid red; */
     height: 200px;
     width: 250px;
-    border-radius: 10px;
+    border-radius: 30px;
     text-align: center;
     background-color:rgba(250, 235, 215, 0.252);
+    /* box-shadow: 0 1px 50px black; */
 }
 
 .items:hover{
     border-radius: 20px;
+    transition: all ease-in-out 0.25s;
 }
 
 .items h2{
@@ -129,13 +136,20 @@ h3{
     border-radius: 10px;
     background-color: rgb(86, 222, 86);
     border: none;
+}
 
+.cbutton:hover{
+    padding: 12px;
+    transition: all ease-in-out 0.25s;
+    text-align: center;
+    box-shadow:  1px 2px 2px rgb(26, 34, 26);
 }
 /* Footer  */
 
 .footer{
     background-color: #252222;
     height: 750px;
+    border-radius: 20px;
 }
 
 .footer2{
@@ -189,17 +203,18 @@ h3{
     margin-top: 30px;
     padding: 15px;
     width: 250px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: rgb(71, 144, 204);
     border: none;
     font-size: 20px;
     text-align: center;
     color: white;
+    cursor: pointer;
 }
 
 .Fbutton:hover{
     background-color: rgb(49, 141, 217);
-    border-radius: 15px;
+    border-radius: 8px;
     transition: all ease-in-out 0.2s;
 }
 
